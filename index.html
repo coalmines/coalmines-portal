@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	<title>Coal Mine API ⚒</title>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: normal;
+            } 
+
+            body {
+                display: flex;
+                min-height: 100vh;
+                flex-direction: row;
+            } 
+            aside {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                flex: 1;
+                overflow: hidden;
+                box-shadow: inset -4px 0px 12px -7px #080707
+            }
+
+            aside {
+                background: url('./coalmineapi.svg');
+                background-position: top center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            } 
+
+            main {
+                flex: 3;
+                background: #0e0e0e;
+                padding: 0.5em 1.5em;
+                color: #f1f1f1;
+            } 
+
+            main h1 {
+                font-weight: normal;
+            } 
+
+            .big-icon {
+                font-size: 10em;
+            }
+
+            ul {
+                list-style-type: "⚒";
+                line-height: 1.5em;
+                font-size: 1.5em;
+            } 
+            ul li {
+                padding-left: 0.5em;
+            } 
+
+            a, a:visited, a:hover {
+                color: orangered;
+            } 
+
+/*            @media (max-width: 960px) {*/
+	    @media (orientation:portrait) {
+
+                body {
+                    flex-direction: column;
+                }
+
+                aside {                           
+                    background-size: auto;
+                    height: 500px;
+                    flex: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <aside>
+        </aside>
+        <main>
+            <h1>Put on your helmet and enter the Coal Mine API ⚒</h1>
+            <span class="big-icon">👷</span>
+            <ul>
+                <li>You can explore the API <a href="/graphiql">here</a></li>
+                <li>Or authenticate via GitHub and consume the full API <a href="/auth/github">here</a></li>
+		<li>Create an app talking to the API at <code>https://coalmines.ruhr/graphql</code></li>
+                <li>Find the source code at <a href="https://github.com/coalmines">github.com/coalmines</a></li>
+            </ul>
+        </main>
+    </body>
+</html>

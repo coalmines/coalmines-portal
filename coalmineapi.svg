@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+>
+    <style>
+    @keyframes rotation {
+        from { transform: rotate(0deg);}
+        to {transform: rotate(359deg);}
+    }
+    .wheel {animation: rotation 5s infinite linear;} 
+
+    #wheel1 .wheel, 
+    #wheel2 .wheel {
+        transform-origin: 22px 22px;
+    } 
+
+    #wheel3 .wheel, 
+    #wheel4 .wheel {
+        transform-origin: 20px 20px;
+    } 
+
+    #wheel1 .wheel, 
+    #wheel3 .wheel {
+        animation-direction: reverse;
+    } 
+
+    #dataflow {
+        stroke-dasharray: 3,30;
+        stroke-dashoffset: 0;
+        animation: dash 15s linear infinite;
+    }
+
+    @keyframes dash {
+        from {
+            stroke-dashoffset: 0;
+        }
+        to {
+            stroke-dashoffset: 1000;
+        }
+    }
+    </style>
+    <defs>
+    <linearGradient id="lgrad" x1="0%" y1="100%" x2="100%" y2="0%" >
+<stop offset="0%" style="stop-color:rgb(150,0,0 );stop-opacity:1" />
+<stop offset="100%" style="stop-color:rgb(255, 102, 0);stop-opacity:1" />
+</linearGradient>
+    </defs>
+        <rect id="sky" fill="url(#lgrad)" x="0" y="0" width="1440" height="448"></rect>
+    
+        <polygon id="building" fill="#2B2B2B" points="667 291.626139 675.800926 291.626139 675.800926 245 766.029755 245 766.029755 291.626139 774 291.626139 774 450 667 450"></polygon>
+        <rect id="ground" fill="#2B2B2B" x="0" y="448" width="1440" height="1626"></rect>
+        <rect id="well" fill="#f1f1f1" x="704" y="245" width="32" height="1735"></rect>
+        <path d="M712.5,148.5 L712.5,1983.5" id="Line" stroke="#2B2B2B" stroke-linecap="square"></path>
+        <path d="M727.5,148.5 L727.5,1983.5" id="Line-Copy" stroke="#2B2B2B" stroke-linecap="square"></path>
+        <g id="Tower" transform="translate(548.000000, 93.000000)">
+            <g id="wheel1" transform="translate(122.610000, 40.650000)" stroke="#2B2B2B">
+                <g class="wheel">
+                    <g id="Group" stroke-linecap="square" stroke-width="2.52">
+                        <path d="M0.315,22.365 L44.415,22.365" id="Line"></path>
+                        <path d="M22.365,0.315 L22.365,44.415" id="Line-Copy"></path>
+                        <path d="M0.315,22.365 L44.415,22.365" id="Line-Copy-3" transform="translate(22.365000, 22.365000) rotate(-315.000000) translate(-22.365000, -22.365000) "></path>
+                        <path d="M22.365,0.315 L22.365,44.415" id="Line-Copy-2" transform="translate(22.680000, 22.365000) rotate(-315.000000) translate(-22.680000, -22.365000) "></path>
+                        <path d="M0.315,22.365 L44.415,22.365" id="Line-Copy-5" transform="translate(22.365000, 22.365000) rotate(-294.000000) translate(-22.365000, -22.365000) "></path>
+                        <path d="M22.365,0.315 L22.365,44.415" id="Line-Copy-4" transform="translate(22.680000, 22.365000) rotate(-294.000000) translate(-22.680000, -22.365000) "></path>
+                        <path d="M30.6250754,1.92059601 L14.1049246,42.809404" id="Line-Copy-7"></path>
+                        <path d="M43.2424051,30.3330125 L2.35359708,13.8128617" id="Line-Copy-6"></path>
+                    </g>
+                    <circle id="Oval" stroke-width="3.78" cx="22.365" cy="22.365" r="22.365"></circle>
+                </g>
+            </g>
+            <g id="wheel2" transform="translate(179.356415, 40.645669)" stroke="#2B2B2B">
+                <g class="wheel">
+                    <g id="Group" stroke-linecap="square" stroke-width="2.52">
+                        <path d="M0.315,22.365 L44.415,22.365" id="Line"></path>
+                        <path d="M22.365,0.315 L22.365,44.415" id="Line-Copy"></path>
+                        <path d="M0.315,22.365 L44.415,22.365" id="Line-Copy-3" transform="translate(22.365000, 22.365000) rotate(-315.000000) translate(-22.365000, -22.365000) "></path>
+                        <path d="M22.365,0.315 L22.365,44.415" id="Line-Copy-2" transform="translate(22.680000, 22.365000) rotate(-315.000000) translate(-22.680000, -22.365000) "></path>
+                        <path d="M0.315,22.365 L44.415,22.365" id="Line-Copy-5" transform="translate(22.365000, 22.365000) rotate(-294.000000) translate(-22.365000, -22.365000) "></path>
+                        <path d="M22.365,0.315 L22.365,44.415" id="Line-Copy-4" transform="translate(22.680000, 22.365000) rotate(-294.000000) translate(-22.680000, -22.365000) "></path>
+                        <path d="M30.6250754,1.92059601 L14.1049246,42.809404" id="Line-Copy-7"></path>
+                        <path d="M43.2424051,30.3330125 L2.35359708,13.8128617" id="Line-Copy-6"></path>
+                    </g>
+                    <circle id="Oval" stroke-width="3.78" cx="22.365" cy="22.365" r="22.365"></circle>
+                </g>
+            </g>
+            <g id="wheel3" transform="translate(122.606925, 92.503937)" stroke="#2B2B2B">
+                <g class="wheel">
+                    <g id="Group" stroke-linecap="square" stroke-width="2.268">
+                        <path d="M0.2905875,20.6317125 L40.9728375,20.6317125" id="Line"></path>
+                        <path d="M20.6317125,0.2905875 L20.6317125,40.9728375" id="Line-Copy"></path>
+                        <path d="M0.2905875,20.6317125 L40.9728375,20.6317125" id="Line-Copy-3" transform="translate(20.631712, 20.631712) rotate(-315.000000) translate(-20.631712, -20.631712) "></path>
+                        <path d="M20.6317125,0.2905875 L20.6317125,40.9728375" id="Line-Copy-2" transform="translate(20.922300, 20.631712) rotate(-315.000000) translate(-20.922300, -20.631712) "></path>
+                        <path d="M0.2905875,20.6317125 L40.9728375,20.6317125" id="Line-Copy-5" transform="translate(20.631712, 20.631712) rotate(-294.000000) translate(-20.631712, -20.631712) "></path>
+                        <path d="M20.6317125,0.2905875 L20.6317125,40.9728375" id="Line-Copy-4" transform="translate(20.922300, 20.631712) rotate(-294.000000) translate(-20.922300, -20.631712) "></path>
+                        <path d="M28.251632,1.77174982 L13.011793,39.4916752" id="Line-Copy-7"></path>
+                        <path d="M39.8911187,27.982204 L2.17119331,12.7423649" id="Line-Copy-6"></path>
+                    </g>
+                    <circle id="Oval" stroke-width="3.402" cx="20.6317125" cy="20.6317125" r="20.6317125"></circle>
+                </g>
+            </g>
+            <g id="wheel4" transform="translate(178.961303, 92.503937)" stroke="#2B2B2B">
+                <g class="wheel">
+                    <g id="Group" stroke-linecap="square" stroke-width="2.268">
+                        <path d="M0.2905875,20.6317125 L40.9728375,20.6317125" id="Line"></path>
+                        <path d="M20.6317125,0.2905875 L20.6317125,40.9728375" id="Line-Copy"></path>
+                        <path d="M0.2905875,20.6317125 L40.9728375,20.6317125" id="Line-Copy-3" transform="translate(20.631712, 20.631712) rotate(-315.000000) translate(-20.631712, -20.631712) "></path>
+                        <path d="M20.6317125,0.2905875 L20.6317125,40.9728375" id="Line-Copy-2" transform="translate(20.922300, 20.631712) rotate(-315.000000) translate(-20.922300, -20.631712) "></path>
+                        <path d="M0.2905875,20.6317125 L40.9728375,20.6317125" id="Line-Copy-5" transform="translate(20.631712, 20.631712) rotate(-294.000000) translate(-20.631712, -20.631712) "></path>
+                        <path d="M20.6317125,0.2905875 L20.6317125,40.9728375" id="Line-Copy-4" transform="translate(20.922300, 20.631712) rotate(-294.000000) translate(-20.922300, -20.631712) "></path>
+                        <path d="M28.251632,1.77174982 L13.011793,39.4916752" id="Line-Copy-7"></path>
+                        <path d="M39.8911187,27.982204 L2.17119331,12.7423649" id="Line-Copy-6"></path>
+                    </g>
+                    <circle id="Oval" stroke-width="3.402" cx="20.6317125" cy="20.6317125" r="20.6317125"></circle>
+                </g>
+            </g>
+            <path d="M172.399453,2.84217094e-14 L229.566911,2.84217094e-14 L229.566911,11.4406424 L202.40135,23.747897 L202.40135,63.5145082 L320.879837,355.540138 L311.855513,355.540138 L196.978087,80.6335023 L187.890724,75.4270232 L172.399453,75.4270232 L155.408665,75.4270232 L146.321302,80.6335023 L31.4438765,355.540138 L22.4195519,355.540138 L140.898039,63.5145082 L140.898039,23.747897 L113.732478,11.4406424 L113.732478,2.84217094e-14 L172.399453,2.84217094e-14 Z M172.399453,15.3948442 L155.408665,15.3948442 L149.34911,23.747897 L149.34911,54.3515586 L155.408665,58.2649253 L172.399453,58.2649253 L187.890724,58.2649253 L193.950279,54.3515586 L193.950279,23.747897 L187.890724,15.3948442 L172.399453,15.3948442 Z" id="Combined-Shape-Copy" fill="#000000"></path>
+            <rect id="Rectangle" fill="#2B2B2B" x="108.594705" y="104.417323" width="127.511202" height="12.6141732"></rect>
+            <path d="M172.675513,2.84217094e-14 L238.4938,2.84217094e-14 L238.4938,11.4406424 L207.217428,23.747897 L207.217428,63.5145082 L343.624596,355.540138 L333.234672,355.540138 L200.973494,80.6335023 L190.510991,75.4270232 L172.675513,75.4270232 L153.113605,75.4270232 L142.651103,80.6335023 L10.3899247,355.540138 L0,355.540138 L136.407169,63.5145082 L136.407169,23.747897 L105.130796,11.4406424 L105.130796,2.84217094e-14 L172.675513,2.84217094e-14 Z M172.675513,15.3948442 L153.113605,15.3948442 L146.137092,23.747897 L146.137092,54.3515586 L153.113605,58.2649253 L172.675513,58.2649253 L190.510991,58.2649253 L197.487505,54.3515586 L197.487505,23.747897 L190.510991,15.3948442 L172.675513,15.3948442 Z" id="Combined-Shape" fill="#2B2B2B"></path>
+        </g>
+        <text id="COALMINE" font-family="AmericanTypewriter-Semibold, American Typewriter" font-size="24" font-weight="500" fill="#000000">
+            <tspan x="655" y="62">COAL MINE</tspan>
+        </text>
+        <text id="API" font-family="AmericanTypewriter-Semibold, American Typewriter" font-size="24" font-weight="500" fill="#000000">
+            <tspan x="699" y="87">API</tspan>
+        </text>
+        <path d="M720.5,216.5 L720.5,1975" id="dataflow" stroke="#4A90E2" stroke-width="10" stroke-linecap="square" stroke-dasharray="3,30"></path>
+</svg>
