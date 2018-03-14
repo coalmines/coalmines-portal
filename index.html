@@ -73,7 +73,17 @@
                     flex: auto;
                 }
             }
+
+            div.auth-buttons {
+              width: 280px;
+              display: flex;
+              flex-direction: column;
+            }
+            div.auth-buttons a {
+              margin: 10px 5px;
+            }
         </style>
+        <link rel="stylesheet" href="bower_components/css3-social-signin-buttons/auth-buttons.css">
     </head>
     <body>
         <aside>
@@ -83,7 +93,17 @@
             <span class="big-icon">👷</span>
             <ul>
                 <li>You can explore the API <a href="/graphiql">here</a></li>
-                <li>Or authenticate via GitHub and consume the full API <a href="/auth/github">here</a></li>
+                <li>
+                  Or authenticate to consume the full API
+                  <div class="auth-buttons">
+                    <a class="btn-auth btn-github large" href="/auth/github">
+                      Sign in with GitHub
+                    </a>
+                    <a class="btn-auth btn-twitter large" href="/auth/twitter">
+                      Sign in with Twitter
+                    </a>
+                  </div>
+                </li>
 		<li>Create an app talking to the API at <code>https://coalmines.ruhr/graphql</code></li>
                 <li>Find the source code at <a href="https://github.com/coalmines">github.com/coalmines</a></li>
             </ul>
